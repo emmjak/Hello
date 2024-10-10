@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skogene i verden - Forside</title>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #linkfelt{
+            width: 100vw; 
+            height: 40px;
+            background-color:none;
+            display: flex;
+            flex-direction: row;
+            border: 1ch;
+            border-color: black;
+
+        }
+
+        #toppfelt{
+            width: 100vw; /*vw = viewport width dvs. 100vw = 100% av sidebredden*/
+            height: 120px;
+            background-color:none;
+            display: flex;
+            flex-direction: row;
+           
+        }
+
+        #mellomfelt{
+            width: 100vw; /*vw = viewport width dvs. 100vw = 100% av sidebredden*/
+            height: 290px;
+            background-color:none;
+            display: flex;
+            flex-direction: row;
+           
+        }
+
+
+
+
+        #hovedfelt{
+            width: 100vw;
+            height: 250px;
+            background-color: rgb(205, 168, 57);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            bottom: 0px;
+
+        }
+        .hoveddiver{
+            width: 21%;
+            height: 90%;
+            background-color: none;
+            border-radius: 20px;
+            padding: 10px;
+            /*box-shadow: 10px 10px 10px rgb(45, 72, 101);*/
+            
+        }
+
+        .hoveddiver p {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: large;
+            color: aliceblue;
+
+        }
+
+        .hoveddiver h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: x-large;
+            color: black;
+            align-items: center;
+
+        }
+
+        .hoveddiver a{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: small;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            
+        }
+        
+        .hoveddiver a:hover{
+            text-decoration: underline;
+           
+        }
+
+        #midtrehoveddiver{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .toppdiv{
+            height: 100%;
+            min-width: 150px;
+            
+
+        }
+        
+        #vtf{
+            
+            flex-grow: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #mtf{
+            
+            flex-grow: 8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #htf{
+            
+            flex-grow: 1;
+        }
+
+        .toppdiv p{
+
+            font-family: 'Courier New', Courier, monospace;
+            font-size:xx-large ;
+            color:rgb(0, 0, 0);
+        }
+
+        body{
+
+            background-image: url(images/Bakgrunnsbilde2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .linkediv{
+
+            height: 100%;
+            min-width: 150px;
+        }
+
+        #link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8{
+
+            flex-grow: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+        .linkediv p{
+
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+            color: black;
+            
+
+        }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id="linkfelt"> 
+        <div class="linkediv" id="link1"> <p>Hjem</p>
+
+        </div>
+
+        <div class="linkediv" id="link2"> <p>Skogtyper</p>
+            
+        </div>
+
+        <div class="linkediv" id="link3"> <p>Bevaring</p>
+            
+        </div>
+
+        <div class="linkediv" id="link4"> <p>Utforsk Skoger</p>
+            
+        </div>
+
+        <div class="linkediv" id="link5"> <p>Nyheter og Artikler</p>
+            
+        </div>
+
+        <div class="linkediv" id="link6"> <p>Om oss</p>
+            
+        </div>
+
+        <div class="linkediv" id="link7"> <p>Ressurser</p>
+            
+        </div>
+
+        <div class="linkediv" id="link8"> <p>Kontakt</p>
+            
+        </div>
+
+
+    </div>
+
+    <div id="toppfelt">
+        <div class="toppdiv" id="vtf">
+
+        </div>
+        <div class="toppdiv" id="mtf"> <p>Skogenes verden</p>
+        
+        </div>
+        <div class="toppdiv" id="htf">&#9776;
+
+        </div>
+
+    
+
+
+    </div>
+
+    <div id="mellomfelt">
+
+
+    </div>
+
+
+    <div id="hovedfelt">
+        <div class="hoveddiver"> 
+            <h1>Tropisk</h1>
+            <br>  
+           <a href="Tropisk_skog.html"><img src="images/Tropisk skog.jpg" width="70%"></a>
+            
+        </div>
+        <div class="hoveddiver">
+            <h1>Subtropisk</h1>
+            <br>
+            
+          
+        </div>
+
+        <div class="hoveddiver">
+            <h1>Temperet</h1>
+            <br>
+            <a href="Temperert_skog.html"><img src="images/Temperert skog2.jpg" width="70%"></a>
+
+
+        </div>
+
+        <div class="hoveddiver">
+            <h1>Boreal</h1>
+            <br>
+            <a href="Boreal_skog.html"><img src="images/Boreal skog.jpg" width="70%" alt=""></a>
+            
+        </div>
+        
+
+            
+    
+        
+
+    </div>
+
+</body>
+</html>
